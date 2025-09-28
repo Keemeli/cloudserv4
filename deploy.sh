@@ -6,7 +6,7 @@
 set -e
 
 PROJECT_NAME="eemeli-demo"
-REPO_URL="https://github.com/YOUR_USERNAME/cloudserv4.git"
+REPO_URL="https://github.com/Keemeli/cloudserv4.git"
 
 echo "🚀 Deploying Eemeli's Personal CSC Rahti Demo Application"
 echo "=================================================="
