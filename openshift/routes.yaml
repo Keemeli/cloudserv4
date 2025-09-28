@@ -1,0 +1,38 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: frontend-route
+  labels:
+    app: eemeli-demo
+    component: frontend
+spec:
+  to:
+    kind: Service
+    name: frontend
+    weight: 100
+  port:
+    targetPort: frontend-port
+  tls:
+    termination: edge
+    insecureEdgeTerminationPolicy: Redirect
+  wildcardPolicy: None
+---
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  name: backend-route
+  labels:
+    app: eemeli-demo
+    component: backend
+spec:
+  path: /api
+  to:
+    kind: Service
+    name: backend
+    weight: 100
+  port:
+    targetPort: backend-port
+  tls:
+    termination: edge
+    insecureEdgeTerminationPolicy: Redirect
+  wildcardPolicy: None
