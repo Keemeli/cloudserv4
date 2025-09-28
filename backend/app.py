@@ -73,8 +73,8 @@ def get_info():
                 "name": "Eemeli Karjalainen",
                 "role": "Student",
                 "course": "Cloud Services",
-                "university": "University",
-                "email": "eemeli.karjalainen@example.com"
+                "university": "OAMK - Oulu University of Applied Sciences",
+                "email": "eekarjal24@students.oamk.fi"
             },
             "system": {
                 "hostname": platform.node(),
@@ -149,6 +149,8 @@ def get_projects():
         ],
         "contact": {
             "name": "Eemeli Karjalainen",
+            "email": "eekarjal24@students.oamk.fi",
+            "university": "OAMK - Oulu University of Applied Sciences",
             "note": "This is a demonstration application for educational purposes"
         },
         "timestamp": datetime.now().isoformat()

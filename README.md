@@ -116,7 +116,7 @@ A personalized multi-container web application deployed on CSC Rahti platform, f
 
 ## 👨‍💻 About Me
 
-This application was created by **Eemeli Karjalainen** as part of cloud services coursework, demonstrating containerization, multi-service architecture, and deployment to CSC Rahti platform.
+This application was created by **Eemeli Karjalainen** (eekarjal24@students.oamk.fi) as part of cloud services coursework at OAMK - Oulu University of Applied Sciences, demonstrating containerization, multi-service architecture, and deployment to CSC Rahti platform.
 
 ## 📄 License
 
